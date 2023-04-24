@@ -1,0 +1,24 @@
+MODULO2
+
+1.ingrese dos numeros y sumelos entre si
+2.hallar el valor de un cuadrado 
+3.hallar la edad de una persona pidiendo el año actual y su año de nacimiento 
+
+MODULO3
+CONDICIONALES
+1.ingrese las edades de dos personas y evalue quien tiene mas edad 
+2.ingrese 4 numeros distintos y evalue cual es el mayor de todos 
+3.Escriba un programa que pregunte primero si se quiere calcular el área de un triángulo o la de un círculo. Si se contesta que se quiere calcular el área de un triángulo (escribiendo triangulo), el programa tiene que pedir entonces la base y la altura y escribir el área. Si se contesta que se quiere calcular el área de un círculo (escribiendo circulo), el programa tiene que pedir entonces el radio y escribir el área.
+
+Se recuerda que el área de un triángulo es base por altura dividido por 2 y que el área de un círculo es Pi (aproximadamente 3,141592) por el radio al cuadrado.
+4.Escriba un programa que pida una distancia en centímetros y que escriba esa distancia en kilómetros o  metros como sea deseado
+5.Hacer un programa para ingresar un número y mostrar por pantalla un cartel aclaratorio si el mismo es PAR o IMPAR.
+
+CICLOS
+
+1.Escriba un programa que pregunte una y otra vez si desea continuar con el programa, siempre que se conteste exactamente si
+2.Escriba un programa que solicite una contraseña (el texto de la contraseña no es importante) y la vuelva a solicitar hasta que las dos contraseñas coincidan.
+3.sacar los números pares entre el número 500 y el 1000 y mostrarlos
+4.sacar los números impares entre el número 500 y el 1000 y mostrarlos
+5.tablas de multiplicar
+
