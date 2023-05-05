@@ -33,13 +33,17 @@ for k in lista:
         menor=k
 print (f"el numero mayor es{mayor}" )    
 print(f"el numero menor es{menor}")
-
+#desviacion estandar 
 for q in lista:
     resta=q-promedio
     cuadrado=resta**2
     division=cuadrado//contador
     raiz=math.sqrt(division)
-    print(raiz)
+print(f"la desviacion estandar es {raiz}")
+
+
+    
+    
     
     
     
