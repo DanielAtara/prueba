@@ -1,8 +1,8 @@
 import random 
 lista1=[]
 lista2=[]
-contador=0
-sum1,sum2=0,0
+contador,contador1,contador2=0,0,0
+sum1,sum2,sum3,sum4,sum5=0,0,0,0,0
 mayor1,mayor2=0,0
 menor1,menor2=1000000,1000000
 tam=random.randint(10,15)
@@ -52,9 +52,31 @@ if mayor1>mayor2:
     print (f"el numero mayor es {mayor1}")
 
 else:
-    print(f("el numero mayor es {mayor2}")) 
+    print(f"el numero mayor es {mayor2}") 
     
 if menor1<menor2:
     print (f"el numero menor es {menor1}")
 else:
     print(f"el numero menor es {menor2}")
+
+conjunto=lista1+lista2
+print(conjunto)
+for e in conjunto:
+    sum3+=e
+    contador1+=1
+    promedioconj=sum3//contador
+print(promedioconj)
+
+for o in lista1:
+    sum4+=o
+    contador2+=1
+    promedio1=sum3//contador
+print(promedio1)
+
+if promedioconj>promedio1:
+    print("el promedio conjunto esta por encima del arreglo de la primera lista ")
+elif promedioconj==promedio1:
+    print(f"los dos promedios son iguales {promedio1} {promedioconj}" )
+else :
+    print("el promedio de la lista uno esta por encima de promedio conjunto ")
+
