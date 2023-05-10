@@ -11,7 +11,7 @@ def sumar(lista):
     sumar=0
     for i in  lista :
         sumar+=i
-    return sumar 
+    return sumar
 
 def promedio(lista):
     promedio=sumar(lista)/len(lista)
@@ -50,7 +50,22 @@ def ordenmenor(lista):
                 lista[e]=lista[f]
                 lista[f]=aux
     return lista
-            
+
+def moda(lista):
+    maximo=0
+    for a in lista :
+        contador=0
+        for b in lista:
+            if a==b:
+                contador+=1
+        if contador>maximo:
+            maximo=contador
+            moda1=a
+    return moda1
+
+
+
+
 lista1=llenado(5,10)
 print (lista1)
 print(sumar(lista1))
@@ -59,3 +74,12 @@ print(mayor(lista1))
 print(menor(lista1))
 print(ordenmayor(lista1))
 print(ordenmenor(lista1))
+print(moda(lista1))
+
+num=int(input("ingrese el numero que desea buscar en la lista "))
+
+def posicionnumero(lista):
+    for i in range(len(lista)):
+        if num == lista[i]:
+            
+print(posicionnumero(lista1))
