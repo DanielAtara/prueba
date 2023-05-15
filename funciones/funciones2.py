@@ -72,12 +72,17 @@ print ("el promedio de las dos listas conjunto es :",promedio(listaconjunto))
 promediol1=(promedio(l1))
 promediol2=(promedio(l2))
 promedioconjunto=(promedio(listaconjunto))
-if promediol1>promedioconjunto:
-    print(f"el promedio de la lista uno es mayor a de la lista conjunto : {promediol1}")
-else:print(f"el promedio de la lista conjunto es superior a de la lista uno : {promedioconjunto}")
-if promediol2>promedioconjunto:
-    print(f"el promedio de la lista dos es mayor a de la lista conjunto : {promediol2}")
-else:print(f"el promedio de la lista conjunto es superior a de la lista dos : {promedioconjunto}")
+def promediomayor(promedil1,promediol2,promedioconjunto):
+    if promediol1>promedioconjunto:
+        promediomayor=promediol1
+    else:
+        promediomayor=promedioconjunto
+    if promediol2>promedioconjunto:
+        promediomayor=promediol2
+    else:
+        promediomayor=promedioconjunto
+        
+print ("el promedio mayor es ",promediomayor(promediol1,promediol2,promedioconjunto))
 
 def pares(lista):
     pares=0
