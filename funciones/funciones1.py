@@ -78,8 +78,10 @@ print(moda(lista1))
 
 num=int(input("ingrese el numero que desea buscar en la lista "))
 
-def posicionnumero(lista):
-    for i in range(len(lista)):
-        if num == lista[i]:
-            
-print(posicionnumero(lista1))
+def posicionnumero(numero):
+    cont=0
+    for i in lista1:
+        cont+=1
+        if num==i:
+            return cont-1
+print(posicionnumero(int(input("ingrese el numero que desea buscar en la lista "))))
