@@ -42,6 +42,8 @@ for k in lista1:
         menor1=k
         
 
+
+        
 for i in lista2:
     if k >mayor2:
         mayor2=k
@@ -65,13 +67,11 @@ for e in conjunto:
     sum3+=e
     contador1+=1
     promedioconj=sum3//contador
-print(promedioconj)
 
 for o in lista1:
     sum4+=o
     contador2+=1
     promedio1=sum3//contador
-print(promedio1)
 
 if promedioconj>promedio1:
     print("el promedio conjunto esta por encima del arreglo de la primera lista ")
