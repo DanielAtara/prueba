@@ -21,6 +21,7 @@ def Ascendente(lista):
                 lista[g]=aux
     return f"la lista ordenada en orden ascendente: {lista}"
 
+
 print(Ascendente(listado))
 
 def cuartil(lista):
