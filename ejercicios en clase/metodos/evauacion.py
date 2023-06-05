@@ -19,7 +19,7 @@ class personas:
     def agregarcursos(self,curso):
         self.__cursos.append(curso)
     def getcursos(self):
-        return self.__cursos
+        return self.__cursos 
     def deletecursos(self,curso):
         self.__cursos.remove(curso)
     def buscarcursos(self,curso):
