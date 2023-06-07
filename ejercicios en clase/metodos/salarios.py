@@ -1,8 +1,12 @@
 class empleado:
+    suma=0
+    contador=0
     def __init__ (self,nombre,cargo,salario):
         self.nombre = nombre
         self.cargo = cargo
         self.salario = salario
+        empleado.suma+=salario
+        empleado.contador+=1
     
     def getnombre(self):
         return self.nombre
@@ -39,6 +43,14 @@ class empleado:
             print(incremento)
         else:
             print("la cantidad de horas extras  es superior a la permitida")
+
+    def sumaSalarios(self, salario):
+        empleado.suma +=self.__salario
+        self.__salario = salario 
+    
+    def promedioSalarios(self,salario):
+        empleado.suma / self.__salario
+        self.__salario = salario
 
 
             
