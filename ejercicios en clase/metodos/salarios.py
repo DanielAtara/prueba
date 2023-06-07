@@ -31,8 +31,18 @@ class empleado:
             ipc=self.salario*13.12/100
             incrementosalario=self.salario+ipc
         return incrementosalario
+
+    def horasextra(self,horas):
+        if horas <=60:
+            valorhora=(self.salario//30)//8
+            incremento=valorhora*horas
+            print(incremento)
+        else:
+            print("la cantidad de horas extras  es superior a la permitida")
+
+
             
-    
-persona1=empleado("daniel","bodegero",1100000)
+persona1=empleado("daniel","bodegero",1200000)
 print(persona1.salariohoras())        
 print(persona1.incrementoipc())
+print(persona1.horasextra(30))
